@@ -1,0 +1,22 @@
+Process of tailwind-----,,,,,
+
+1.npm init -y
+2.npm install -D tailwindcss postcss autoprefixer vite
+3.npx tailwindcss init -p
+
+
+4.main.css er modde 3ta past korte hobe ----->
+			@tailwind base;
+			@tailwind components;
+			@tailwind utilities;
+5.tailwind.config.js er modde change korte hbe--->  
+						  content: ["*"],
+6.packae.json er modde --> 
+			  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+
+  },
+
+7.start korar jonno --> npm run start 
+8.buuild korar jonno--> npm run build
